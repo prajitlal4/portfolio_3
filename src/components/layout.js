@@ -12,18 +12,10 @@ function Layout({ children }) {
         {children}
       </main>
 
-      <footer className="bg-blue-700">
+      <footer className="bg-black">
         <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
           <p className="text-white">
-            Created by{` `}
-            <a
-              className="font-bold no-underline"
-              href="https://bryant.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Taylor Bryant
-            </a>
+            Created by Prajit Lal
           </p>
 
           <p>
@@ -33,7 +25,7 @@ function Layout({ children }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+              Resume
             </a>
           </p>
         </nav>
