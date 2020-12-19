@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import dogIllustration from "../images/dog-illustration.svg";
+
 
 function AboutPage() {
   return (
@@ -14,22 +14,18 @@ function AboutPage() {
 
       <section className="flex flex-col items-center md:flex-row">
         <div className="md:w-2/3 md:mr-8">
-          <blockquote className="pl-4 font-serif leading-loose text-justify border-l-4 border-gray-900">
-            The point is... to live one&apos;s life in the full complexity of
-            what one is, which is something much darker, more contradictory,
-            more of a maelstrom of impulses and passions, of cruelty, ecstacy,
-            and madness, than is apparent to the civilized being who glides on
-            the surface and fits smoothly into the world.
-          </blockquote>
-
-          <cite className="block mt-4 text-xs font-bold text-right uppercase">
-            – Thomas Nagel
-          </cite>
+          <p className="leading-loose mb-10">
+            I have a strong passion for website development and programming. Throughout my journey at university, I have understood the power of software and technology, and how it can benefit everyone who uses it.
+          </p>
+          <p className="leading-loose mb-10">
+            Alongside programming, I enjoy video editing and photography. Video editing is a skill which I have spent most of my spare time learning, with programs such as Adobe After Effects and Premiere Pro.
+          </p>
+          <p className="leading-loose">
+            I also play video games and enjoy going out for long drives. These activities help me stay calm, and allow me to refocus onto the task afterwards. At the end of the day, there&apos;s nothing better than driving down a long road with a sunset view.
+          </p>
         </div>
 
-        <figure className="w-2/3 md:w-1/3">
-          <img alt="A dog relaxing" src={dogIllustration} />
-        </figure>
+
       </section>
     </Layout>
   );
