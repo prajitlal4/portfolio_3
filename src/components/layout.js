@@ -20,7 +20,7 @@ function Layout({ children }) {
 
           <p>
             <a
-              className="font-bold text-white no-underline"
+              className="font-bold text-white no-underline hidden"
               href="/resume"
             >
               Resume

@@ -12,7 +12,8 @@ function ContactPage() {
         title="Contact"
       />
       <section>
-        <form name="contact" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
           <label
             className="block mb-2 text-xs font-bold uppercase"
             htmlFor="first-name"
@@ -22,7 +23,7 @@ function ContactPage() {
 
           <input
             className="w-full mb-6 rounded-md border-gray-800"
-            id="first-name"
+            name="first-name"
             placeholder="Bill"
             type="text"
           />
@@ -36,7 +37,7 @@ function ContactPage() {
 
           <input
             className="w-full mb-6 rounded-md border-gray-800"
-            id="last-name"
+            name="last-name"
             placeholder="Murray"
             type="text"
           />
@@ -50,7 +51,7 @@ function ContactPage() {
 
           <input
             className="w-full mb-6 rounded-md border-gray-800"
-            id="email"
+            name="email"
             placeholder="bill.murray@email.com"
             type="text"
           />
@@ -64,7 +65,7 @@ function ContactPage() {
 
           <textarea
             className="w-full mb-6 rounded-md border-gray-800"
-            id="message"
+            name="message"
             placeholder="Say something..."
             rows="8"
           />
